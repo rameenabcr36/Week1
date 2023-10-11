@@ -1,0 +1,39 @@
+button{
+    background-color: brown;
+    color: aliceblue;
+}
+
+#para1{
+    color:hotpink
+}
+#para2{
+    color:chartreuse;
+}
+
+.content{
+    color: darkolivegreen;
+    background-color: crimson;
+}
+
+
+.outer box{
+   border: solid 3px;
+   border-color: darkgoldenrod;
+   background: lightseagreen;
+   color: aliceblue;
+   width: 300px;
+   height: 300px;
+    }
+
+
+.box{
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+.inner-div{
+    margin: 10px;
+    background: blue;
+    width: 200px;
+    height: 100px;
+}
