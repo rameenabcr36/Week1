@@ -1,0 +1,132 @@
+body{
+    background-color:aliceblue;
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 0%;
+  }
+
+#image{
+    margin-right: 15%;
+    width: 100px;
+}
+
+#top-nav{
+    list-style: none;
+    display: flex;
+}
+
+#top-nav li{
+   
+    padding: 20px;
+}
+#top-nav li:hover{
+    color: cornflowerblue;
+}
+.content-area{ 
+    background-color: #fff;
+    padding: 3%;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    margin-bottom: 1.5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+   text-align: center;
+   font-size: 21px;
+   margin: 0%;
+   padding: 0%;
+}
+h2{
+   text-align: center;
+   font-size: 37px;
+}
+/* #items{
+   display: inline-flex;
+   list-style: none;
+   text-decoration: underline;
+   cursor: pointer;
+   color:  rgb(29, 72, 150);
+   font-size: 35px;
+
+} */
+   
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+   
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    color: rgb(58, 103, 189);
+    cursor: pointer;
+    
+    
+  }
+  .span{
+    display:block;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .grid-item:hover{
+    color: black;
+  }
+    footer{
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        height: 20px;
+        background-color: #fff;
+        
+}
+  footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+footer ul li{
+    padding: 20px;
+    text-decoration: underline ;
+    color: cornflowerblue;
+    padding: 20px;
+}
+footer ul li:hover{
+    color: black;
+   }
+   #press{
+    color: cornflowerblue;
+    text-decoration: underline;
+   }
+   #press:hover{
+    color: black;
+   }
