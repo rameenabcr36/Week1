@@ -1,4 +1,4 @@
-.khaleej{
+#khaleej{
     cursor: pointer;
     color:#000 ;
      margin-left: 40%;
@@ -9,7 +9,7 @@
         font-family: 'proxima_novaregular';
         margin-left: 40%;
     }
-    .button{
+    button{
         cursor: pointer;
         color: #fff;
         background: #0179c8;
@@ -26,11 +26,9 @@
         height: auto;
         margin-left: 10%;
         margin-right: 10%;
-        padding: 5px;
-             
-            
+        padding: 5px;            
    }
-    .menu{
+    .bar li{
         cursor: pointer;
         font-size: 20px;
         display: inline;
@@ -49,6 +47,7 @@
     .main-content{
         cursor: pointer;
         padding-top: 50px;
+        
                      
                 
     }
