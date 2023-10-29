@@ -1,0 +1,264 @@
+@media only screen and (min-width: 576px) {
+    .pic2-1 {
+      display: block;
+    }
+    .pic2-2{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .pic2-1 {
+      display: none;
+    }
+    .pic2-2{
+        display: block;
+    }
+  }
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: sans-serif;
+    background: black;
+    color: gray;
+}
+#add-btn{
+    font-size: 1.5rem;
+    background-color: red;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 30px;
+   
+}
+#email-btn{
+   border: gray ; 
+   border-style: solid;
+}
+#mailadd div input{
+    height: 50px;
+    background: black;
+    fill-opacity: 0.25;
+    
+}
+#mailadd{
+margin:  auto;
+justify-content: center;
+      
+}
+
+#select-ln{
+    width: 102px;
+    margin-right: 1%;
+    background: transparent;
+    color: #fff;
+
+   
+} 
+
+#logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 11%;
+}
+ img{
+    width: 100%;
+ }
+ .showcase{
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url('bgp.jpg') no-repeat  center center/cover;
+ }
+ .showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    box-shadow: inset 50px 100px 250px black;
+ }
+  .showcase-top{
+    z-index: 2;
+    position: relative;
+    height: 90px;
+
+ }
+.show1case-top a{
+    position: absolute;
+    /* top: 30%; */
+    /* right: 10%; */
+}
+.show1case a{
+    /* display: inline-block; */
+    color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentColor;
+    background-color: red;
+    /* padding: 0.4rem 1.3rem; */
+   }
+/* .showcase select{
+    padding: 0.4rem 1.3rem;
+    line-height: 1.25rem;
+    outline: auto;
+} */
+#showcase-btn{
+    justify-content: end;
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row;
+    position: relative;
+    top: 15%;
+margin-right: 10%;
+
+}
+#language{
+    background-color: transparent;
+    /* display: inline-block; */
+    color: #fff;
+    border-radius: 0.25rem;
+    position: absolute;
+    /* top: 30%; */
+    /* right: 17%; */
+}
+.content{
+    padding-top: 10%;
+
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.content a{
+    background-color: red;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 2.1rem ;
+    line-height: 1.25rem;
+}
+.content h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.9rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+.content p:nth-child(2){
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25rem;
+    margin: 0 0 2rem;
+}
+.content p:nth-child(3){
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.25rem;
+    margin: 0 0 2rem;
+}
+.content input{
+    padding: 1.5rem 1rem 0.5rem;
+}
+.page-breaker{
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+}
+h1{
+    color: #fff !important;
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+}
+p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.side-content{
+display: flex;
+flex-direction: column;
+
+
+    justify-content: center;
+    align-content: center;
+}
+.last-list{
+    list-style: none;
+}
+.e164gv2o1{
+
+    
+    display: flex;
+   
+flex-direction: row;
+
+}
+
+.e164gv2o5{
+
+display: none;
+
+
+}
+#h3-b1 {
+    align-self: flex-end;
+background-color: rgb(43, 41, 41);
+
+   
+}
+.btn-1{
+    width: 80%;
+    display: flex;
+   
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: inherit;
+    padding: 0.5%;
+    margin-top: 0.5%;
+    background-color: black;
+    color: white;
+    
+}
+#faq-1{
+
+display: none;
+
+}
+
+.h3-faq{
+padding: 3rem;
+
+}
+#footer-ul{
+    list-style: none;
+    color: #fff;
+}
+#footer-ul a{
+    color: gray;
+}
